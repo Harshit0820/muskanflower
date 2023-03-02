@@ -1,0 +1,569 @@
+html{
+    scroll-behavior: smooth;
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+
+body{
+    background-color: #EDF1D6;
+    margin: 0px;
+    text-align: center;  
+    position: relative; 
+    font-family: 'Merriweather', serif;
+
+}
+
+
+.nav-container{
+    text-align: right;
+    margin-top: 20px;
+    padding: 30px;
+    
+}
+.btn-top{
+    text-decoration: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #000000;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn-top:hover{
+    background: #858585;
+    text-decoration: none;
+}
+
+
+.nav{
+    display: inline-block;
+    padding: 5px;
+}
+
+.nav-num{
+    display: inline-block;
+    padding: 5px;
+}
+
+.nav-link{
+    font-weight: bold;
+    text-decoration: none;
+    color: #40513B;
+    margin-right: 3rem;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.number{
+    font-weight: bold;
+    text-decoration: none;
+    color: #40513B;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.number-img{
+    float: left;
+    /* margin-top: 5px; */
+    width: 45%;
+}
+
+.nav-link:hover{
+    cursor: pointer;
+    color: #609EA2;
+}
+
+.logo-img{
+    width: 7%;
+    border-radius: 50%;
+    margin-left: 3rem;
+    margin-top: 25px;
+}
+
+
+/* --------------------------------------- */
+
+.top-container{
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.shop-img{
+    width: 50%;
+    border-radius: 15%;
+    margin-bottom: 15px;
+}
+
+.intro{
+    width: 50%;
+    margin: 30px auto 50px;
+    font-size: 17px;
+    color: #3C2317;
+    line-height: 1.5;
+    
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    color: #4E6C50;
+    margin-bottom: 40px;
+}
+
+h2{
+    font-family: 'Merriweather', serif;
+    color: #4E6C50;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.btn{
+    background: #898121;
+    background-image: -webkit-linear-gradient(top, #898121, #4C4B16);
+    background-image: -moz-linear-gradient(top, #898121, #4C4B16);
+    background-image: -ms-linear-gradient(top, #898121, #4C4B16);
+    background-image: -o-linear-gradient(top, #898121, #4C4B16);
+    background-image: linear-gradient(to bottom, #898121, #4C4B16);
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+.btn:hover{
+    cursor: pointer;
+    background: #9DC08B;
+    background-image: -webkit-linear-gradient(top, #9DC08B, #609966);
+    background-image: -moz-linear-gradient(top, #9DC08B, #609966);
+    background-image: -ms-linear-gradient(top, #9DC08B, #609966);
+    background-image: -o-linear-gradient(top, #9DC08B, #609966);
+    background-image: linear-gradient(to bottom, #9DC08B, #609966);
+    text-decoration: none;
+}
+
+
+
+/* --------------------------------------- */
+
+
+.work-container{
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.work-row{
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.work-img1{
+    width: 30%;
+    float: left;
+    border-radius: 30%;
+
+}
+
+.work1{
+    font-size: 16px;
+    color: #344D67;
+    line-height: 2;
+    margin-left: 15rem;
+}
+
+.work-img2{
+    width: 45%;
+    float: right;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 30%;
+}
+
+.work2{
+    font-size: 16px;
+    color: #344D67;
+    line-height: 2;
+    margin-right: 15rem;
+}
+
+/* --------------------------------- */
+
+.material-container{
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.material-row{
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.material{
+    width: 50%;
+    margin: 40px auto;
+    color: #2B3467;
+    font-size: 17px;
+}
+
+.subdiv{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+
+
+.flower-img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20%;
+    margin: 30px auto 10px;
+}
+
+.subdiv2{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+
+.bouquet-img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20%;
+    margin: 30px auto 10px;
+}
+
+.caption{
+    margin-top: 0;
+}
+
+/* --------------------------------- */
+
+.gallery-container{
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.gallery-img{
+    width: 600px;
+    height: 600px;
+    border-radius: 20%;
+    object-fit: cover;
+    border: solid black;
+
+}
+
+.gallery-text{
+    width: 50%;
+    margin: 40px auto;
+    color: #00425A;
+    font-size: 17px;
+}
+
+
+/*    <!-- STUDY =================================================================== -->*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: gray;
+}
+
+/* Caption text */
+/* .text {
+  color: #EDF1D6;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+} */
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #EDF1D6;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/*<!-- STUDY =================================================================== -->*/
+
+
+.contact-container{
+    margin-top: 30px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.map{
+    margin: 50px auto 10px;
+}
+
+.contact-full{
+    display: flex;
+    padding-left: 130px;
+}
+
+.contact-info{
+    
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    
+}
+
+.contact-btn {
+    background: #898121;
+    background-image: -webkit-linear-gradient(top, #898121, #4C4B16);
+    background-image: -moz-linear-gradient(top, #898121, #4C4B16);
+    background-image: -ms-linear-gradient(top, #898121, #4C4B16);
+    background-image: -o-linear-gradient(top, #898121, #4C4B16);
+    background-image: linear-gradient(to bottom, #898121, #4C4B16);
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+  .contact-btn:hover {
+    background: #9DC08B;
+    background-image: -webkit-linear-gradient(top, #9DC08B, #609966);
+    background-image: -moz-linear-gradient(top, #9DC08B, #609966);
+    background-image: -ms-linear-gradient(top, #9DC08B, #609966);
+    background-image: -o-linear-gradient(top, #9DC08B, #609966);
+    background-image: linear-gradient(to bottom, #9DC08B, #609966);
+    text-decoration: none;
+}
+
+.cnumber{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.cadd{
+    margin: 30px auto;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width: 50%;
+}
+
+.table-c{
+    margin-left: 80px;
+}
+
+td{
+    padding-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+
+
+
+}
+
+.credit{
+    background-color: #9DC08B;
+    padding-bottom: 5px;
+}
+
+.copyright{
+    margin: 40px auto 5px;
+    font-size: 0.8rem;
+    padding: 10px 0 0;
+}
+
+hr{
+    margin-top: 40px;
+    border-color: gray;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+}
+
+.map-view{
+    width: 1200px;
+    height: 800px;
+}
+
+/*    STUDY====================================*/
+@media only screen and (max-width: 1500px) {
+    .nav-container{
+        padding: 0;
+    }
+    .nav-num{
+        margin-top: 20px;
+    }
+    .number-img{
+        margin-top: 25px;
+    }
+    .nav{
+        padding: 0;
+    }
+    .bouquet-img,.flower-img {
+      width: 100%;
+    }
+    .table-c{
+        margin: 0;
+    }
+    .work-row{
+        width: 50%;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .intro{
+        width: 100%;
+        font-size: 10px;
+    }
+    .work-row{
+        width: 80%;
+    }
+    .work-img1{
+        width: 40%;
+    }
+    .work1{
+        width: 100%;
+        margin: 10px;
+        font-size: 11px;
+    }
+    .work-img2{
+        width: 40%;
+    }
+    .work2{
+        width: 100%;
+        margin: 10px;
+        font-size: 11px;
+    }
+    .material{
+        width: 60%;
+        font-size: 20px;
+    }
+    .gallery-text{
+        width: 100%;
+        font-size: 10px;
+    }
+    .map-view{
+        width: 900px;
+        height: 500px;
+    }
+    .next{
+        right: 50px;
+    }
+    .prev{
+        left: 50px;
+    }
+    .shop-img{
+        width: 100%;
+    }
+    .copyright{
+        font-size: 5px;
+    }
+    .nav-link{
+        font-size: 20px;
+        margin-right: 2rem;
+    }
+    .number{
+        font-size: 20px;
+    }
+    .logo-img{
+        width: 10%;
+    }
+  }
