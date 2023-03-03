@@ -102,6 +102,7 @@ body{
     width: 50%;
     border-radius: 15%;
     margin-bottom: 15px;
+    border: solid black;
 }
 
 .intro{
@@ -533,7 +534,7 @@ hr{
         font-size: 11px;
     }
     .material{
-        width: 60%;
+        width: 80%;
         font-size: 20px;
     }
     .gallery-text{
@@ -551,7 +552,7 @@ hr{
         left: 50px;
     }
     .shop-img{
-        width: 100%;
+        width: 80%;
     }
     .copyright{
         font-size: 5px;
